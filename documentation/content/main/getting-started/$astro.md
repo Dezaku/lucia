@@ -91,7 +91,7 @@ This is optional but highly recommended. Create a new middleware that stores [`A
 
 ```ts
 // src/middleware.ts
-import { auth } from "$lib/server/lucia";
+import { auth } from "./lib/lucia";
 
 import type { MiddlewareResponseHandler } from "astro";
 
